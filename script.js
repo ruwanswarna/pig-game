@@ -29,10 +29,10 @@ const init = function () {
   //   score0El.textContent = 0;
   //   score1El.textContent = 0;
 
-  const scores = [0, 0];
-  let currentScore = 0;
-  let activePlayer = 0;
-  let isPlaying = true;
+  scores = [0, 0];
+  currentScore = 0;
+  activePlayer = 0;
+  isPlaying = true;
 
   score0El.textContent = 0;
   score1El.textContent = 0;
